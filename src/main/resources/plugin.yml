@@ -1,0 +1,16 @@
+name: RedWarps
+version: '1.0'
+main: it.r3dd0yt.redWarps.RedWarps
+api-version: '1.18'
+author: r3dd0yt
+commands:
+  warps:
+    description: "Show the list of all warps."
+  resetwarps:
+    description: "Reset all available warps."
+  setwarp:
+    description: "Set a warp."
+  delwarp:
+    description: "Delete a warp."
+  warp:
+    description: "Teleport you to a warp."

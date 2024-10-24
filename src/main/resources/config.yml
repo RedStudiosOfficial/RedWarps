@@ -1,0 +1,25 @@
+no-permissions: "&cYou don't have permission to perform this command."
+
+warps:
+  no-warps: "&cThere aren't any warps available."
+  list: "&aAvailable warps: %warps%"
+
+reset-warps:
+  no-warps: "&cThere aren't any warps available."
+  success: "&aYou have reset all warps."
+
+setwarp:
+  usage: "&cUsage: /setwarp <name> [permission]"
+  already-exists: "&cAlready exists a warp with this name."
+  success: "&aYou have set the warp %warp%"
+
+delwarp:
+  usage: "&cUsage: /delwarp <name>"
+  no-exists: "&cThis warp doesn't exists."
+  success: "&aYou have deleted the warp %warp%"
+
+warp:
+  usage: "&cUsage: /warp <name>"
+  no-exists: "&cThis warp doesn't exists."
+  no-world: "&cThe world in this warp doesn't exists."
+  success: "&aYou have teleported to warp %warp%"
